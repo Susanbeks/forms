@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Times New Roman'
+}
+form{
+    width: 50%;
+    margin: auto;
+    margin-top:50px;
+}
+
+fieldset{
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h3{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+form input[type=text]{
+    width: 45%;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+form input[type=email],[type=number], [type=password]{
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+form input[type=submit]{
+    width: 90%;
+    background-color: #0067f5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    border:none;
+}
